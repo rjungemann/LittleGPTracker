@@ -5,7 +5,7 @@ TOOLPATH=$(DEVKIT)/usr/bin
 PREFIX		:=	
 SDL_BASE = /opt/gcw0-toolchain/usr/bin/
 
-include $(PWD)/dingoo_rules
+include $(PWD)/gcwzero_rules
 
 CFLAGS	:=	`sdl-config --cflags` -O3 -D_DEBUG -Wall -DPLATFORM_$(PLATFORM) -I$(PWD)/../sources -D__LINUX_ALSA__  -DCPP_MEMORY
 
