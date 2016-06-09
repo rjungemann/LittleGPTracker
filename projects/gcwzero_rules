@@ -1,6 +1,5 @@
 -include $(PWD)/base_rules
 
-#STRIP = mipsel-linux-strip
 STRIP = ls
 
 #---------------------------------------------------------------------------------
