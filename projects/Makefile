@@ -115,6 +115,20 @@ DINGOODIRS      :=    . \
 				../sources/Adapters/SDL/GUI \
 				../sources/Adapters/SDL/Timer
 
+GCWZERODIRS     :=    . \
+				../sources/Adapters/DINGOO/Main \
+				../sources/Adapters/Unix/FileSystem \
+				../sources/System/Process \
+				../sources/Adapters/Unix/Process \
+				../sources/Adapters/DINGOO/System \
+				../sources/Adapters/DINGOO/Midi \
+				../sources/Adapters/Dummy/Midi \
+				../sources/Adapters/DINGOO/Audio \
+				../sources/Adapters/SDL/Audio \
+				../sources/Adapters/SDL/Process \
+				../sources/Adapters/SDL/GUI \
+				../sources/Adapters/SDL/Timer
+
 PSPDIRS	:=    . \
 				../sources/Adapters/PSP/Main \
 				../sources/Adapters/PSP/FileSystem \
@@ -184,6 +198,22 @@ COMMONDIRS	:=	../sources/System/Console \
 #---------------------------------------------------------------------------------
 
 DINGOOFILES             :=  GPSDLMain.o \
+					UnixFileSystem.o \
+					DummyMidi.o \
+					DINGOOAudio.o \
+					Process.o \
+					UnixProcess.o \
+					SDLAudioDriver.o \
+					DINGOOAudioDriver.o \
+					DINGOOSystem.o \
+					DINGOOEventQueue.o \
+					SDLProcess.o \
+					SDLTimer.o \
+					GUIFactory.o \
+					SDLEventManager.o \
+					SDLGUIWindowImp.o
+
+GCWZEROFILES            :=  GPSDLMain.o \
 					UnixFileSystem.o \
 					DummyMidi.o \
 					DINGOOAudio.o \
